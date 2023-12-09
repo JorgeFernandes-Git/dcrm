@@ -9,3 +9,8 @@ cursor_object = database.cursor()
 cursor_object.execute("CREATE DATABASE jorgeco")
 
 print("All done!")
+
+"""
+THIS IS JUST USED TO INITIALIZE THE SCHEMA IN THE DATABASE.
+MUST RUN JUST ONCE.
+"""
