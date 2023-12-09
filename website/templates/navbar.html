@@ -11,7 +11,11 @@
             <li class="nav-item">
               <a class="nav-link" href="{% url "logout" %}">Logout</a>
             </li>
-          {% else %}
+            <li class="nav-item">
+               <a class="nav-link" href="{% url "add_record" %}">Add record</a>
+            </li>
+         
+            {% else %}
             <li class="nav-item">
               <a class="nav-link" href="{% url "home" %}">Login</a>
             </li>
